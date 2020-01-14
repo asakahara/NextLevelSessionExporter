@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'NextLevelSessionExporter'
-  s.version = '0.4.3'
+  s.version = '0.4.4'
   s.license = 'MIT'
   s.summary = 'Export and transcode media in Swift'
-  s.homepage = 'https://github.com/nextlevel/NextLevelSessionExporter'
+  s.homepage = 'https://github.com/asakahara/NextLevelSessionExporter'
   s.authors = { 'patrick piemonte' => 'patrick.piemonte@gmail.com' }
-  s.source = { :git => 'https://github.com/nextlevel/NextLevelSessionExporter.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/asakahara/NextLevelSessionExporter.git', :tag => s.version }
   s.ios.deployment_target = '10.0'
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
